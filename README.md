@@ -2,7 +2,7 @@
 
 The ANN and Random Forest model has been used in this project to classify the sound that may be used for crime scene investigations and can protect many individuals from criminal actions. The datasets on the given problem is provided by my professors Dr. Paul Fergus. Furthermore, a comparison of the two models has been done in order to assess how well this model performs.
 
-Note: Because the size of the RF model was too large, I uploaded only the MLP model to the *save_model* folder. However, if you run the model using the above jupyter notebook, the RF model will be automatically saved to the *saved_model* folder in your workspace.
+Note: Because the size of the RF model was too large, I uploaded only the MLP model to the *saved_model* folder. However, if you run the model using the above jupyter notebook, the RF model will be automatically saved to the *saved_model* folder in your workspace.
 
 ## The Data
 
