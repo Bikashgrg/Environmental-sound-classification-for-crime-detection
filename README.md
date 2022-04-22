@@ -20,6 +20,8 @@ I am going to use librosa with MFCC for feature extraction, which provides build
 
 Based on accuracy and evaluation section, it is clear that ANN outperforms RF in terms of accuracy. But, RF outperforms ANN in terms of training time. However, because the accuracy of ANN is so much higher, training time does not appear to be a significant issue. The benchmarks or the output of different parameters that I have tried for both models are shown below (ANN and RF).
 
+While doing inference on ten unknown test audio files in both the models, it can be noted that a total of six audio files were accurately predicted using ANN model, whereas only 4 external audio files were correctly predicted using RF model where the length of the audio clip was less than four seconds. Also, another thing that can be seen is that the saved model of ANN, which is in .h5 format, has a size of 1.3 megabytes, whereas the saved model of RF, which is in.joblib format, has a size of 150.6 megabytes, which is much larger than the saved model of ANN.
+
 ### ANN model
 
 ![ANN](https://user-images.githubusercontent.com/29011734/164766765-e0b5906f-4913-498b-b991-d6ab6b159327.png)
